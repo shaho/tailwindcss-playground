@@ -1,3 +1,3 @@
 module.exports = {
-  "public/*.{css,js,html}": ["prettier --write"],
+  "public/*.{css,js,html}": ["prettier --ignore-path .prettierignore --write"],
 };
