@@ -1,0 +1,6 @@
+{
+
+  "public/*.+(js|json|ts|tsx|html)": [
+    "prettier --write",
+  ]
+}
